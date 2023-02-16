@@ -15,6 +15,13 @@ h2 {
   font-size: medium;
   font-weight: 200;
 }
+
+
+.label {
+  font-size: 22px;
+  color: rgb(238, 111, 224);
+}
+
 /* END SETUP */
 
 /* Classes that you might find useful */
@@ -58,7 +65,15 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
+.red{
+  background-color: red;
+}
+.red.threevert {
+  width: 500px;
+  height: 33.3%;
+  background-color: red;
 
+}
 .orange {
   background-color: orange;
 }
@@ -79,12 +94,27 @@ h2 {
   background-color: lightblue;
 }
 
+.light-blue {
+  width: 500px;
+  height: 33.3%;
+  background-color: lightblue;
+
+}
+
 .purple {
   background-color: purple;
 }
 
 .white {
+  
   background-color: #fff;
+}
+
+#white {
+  width: 500px;
+  height: 33.34%;
+  background-color: #fff;
+
 }
 
 .black {
@@ -94,15 +124,21 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  width: 500px;
+  height: 50px;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  width: 500px;
+  height: 50px;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  width: 500px;
+  height: 100px;
 }
 
 /* END QUESTION 2 */
@@ -126,15 +162,30 @@ h2 {
 /* QUESTION 4 */
 .mexico-green {
   background-color: #006341;
+  width: 33.3%;
+  height: 300px;
 }
 
 .mexico-img {
-  /* TODO */
+  max-height: 50%;
+  max-width: 33.34%;
+  align-self: center;
 }
 
 .mexico-red {
   background-color: #ce1126;
+  width: 33.3%;
+  height: 300px;
 }
+
+
+
+.label:hover {
+  color: orange;
+  font-size: 30px;
+}
+
+
 
 /* QUESTION 6 */
 .margin-container {
@@ -146,20 +197,54 @@ h2 {
   justify-content: center;
 }
 
+
 /* For margin practice */
+
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin-right: 5px;
+  width:50%;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin-left: 5px;
+  width: 50%;
 }
 /* For padding practice */
+.flag.black {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.padding-container {
+  width: 200px;
+  height:200px;
+  background-color: lightblue;
+  padding: 30px;
+  box-sizing: border-box;
+  background-clip: content-box, padding-box;
+}
+
+
+/* For margin practice 
+.flag1 {
+  background-color: red;
+  margin-right: 5px;
+  
+}
+
+.flag2 {
+  background-color: blue;
+  margin-left: 5px;
+  
+}
+For padding practice
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  
 }
+*/
